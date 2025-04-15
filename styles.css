@@ -1,34 +1,24 @@
 
-.home:nth-child(1){
-    background-image: url(./images/ankoleview.jpg);
-    animation-delay: 0s;
 
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
-.home:nth-child(2){
-    background-image: url(./images/ankolemainhall.jpg);
-    animation-delay: 5s;
-
-}
-.home:nth-child(3){
-    background-image: url(./images/food.jpg);
-    animation-delay: 10s;
-
-}
-.home:nth-child(4){
-    background-image: url(./images/ankolefood.jpg);
-    animation-delay: 15s;
-
-}
-.home:nth-child(5){
-    background-image: url(./images/ankolefood.jpg);
-    animation-delay: 20s;
+.ankole-logo{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    height: 300px;
+    z-index: 10;
+    width: 300px;
 }
 .home{
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
-    animation: slideAnimation 25s infinite forwards;
+    animation: slideAnimation 25s infinite;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -38,6 +28,26 @@
     color: white;
     transition: opacity 1s ease-in-out;
 }
+.landing-page{
+    background-image: url(images/ankoleview.jpg);
+    animation-delay: 0s;
+}
+.discover-page{
+    background-image: url(images/ankolemainhall.jpg);
+    animation-delay: 5s;
+}
+.experience-page{
+    background-image: url(images/ankolefood.jpg);
+    animation-delay: 10s;
+}
+.taste-page{
+    background-image: url(images/tasteimg.jpg);
+    animation-delay: 15s;
+}
+.savour-page{
+    background-image: url(images/sovourimg.jpg);
+    animation-delay: 20s;
+}
 @keyframes slideAnimation {
     0% { opacity:  0; }
     5% { opacity:  1; }
@@ -45,26 +55,27 @@
     25% { opacity: 0; }
     100% { opacity: 0;}
   }
-.hello{
+  .banner-text {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    font-size: 4rem;
+    color: rgb(138, 136, 136);
 
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
-nav{
+  }
+  nav{
     position: absolute;
     background: black;
-    /* bottom: 0; */
     width: 40%;
     left: 27%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    /* z-index: 10; */
     border-radius: 30px;
     height: 60px;
-    margin-top: 15%;
+   margin-top: -8%;
     gap: 3%;
 }
 
@@ -76,29 +87,180 @@ nav a{
 }
 .reservation-btn{
     background-color: #737373;
-    /* align-items: center;
-     */
      text-align: center;
     border-radius: 20px;
     width: 20%;
+    margin-bottom: 1%;
+    padding: 15px;
 }
-.reservation-btn a{
+#watsapp{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: -20%;
+}
+
+.bar{
+    color: white;
+    font-size: 20px;
+    top: 5%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+}
+
+.kitisuru-menu{
+    background-image: url(./images/ankoleview.jpg);
+    height: 100%;
+    width: 100%;
+}
+.kilimani-menu{
+    background-image: url(./images/ankolemainhall.jpg);
+    height: 100%;
+    width: 100%;
+}
+.kitisuru-menu {
+    text-align: center;
+
+   
+}
+.kilimani-menu{
     text-align: center;
 }
-.ankole-logo{
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    height: 200px;
-    z-index: 10;
-    width: 200px;
-}
-.welcome{
-    font-size: 25px;
-}
 .discover{
+    margin-top: 40%;
+    color: #b24216;
+    font-size: 35px;
+    font-weight: bold;
+    /* left: 20%; */
+}
+.kalibu{
+    margin-top: 40%;
+    color: #b24216;
+    font-size: 35px;
+    font-weight: bold;
+}
+.kilimani{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.explore{
+    color: white;
+}
+.kitisulu{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.kitisuru-main{
+    background-image: url(./images/Ankole\ menu.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.kitisulu-page{
+    display: flex;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100vh;
 
 }
-.experience{
-    
+.menu-p{
+    margin-top: 50%;
+    color: #b24216;
+    font-size: 35px;
+    font-weight: bold;
+}
+.menu{
+    color: white;
+}
+.menu-p{
+    margin-bottom: 17%;
+}
+.kitisulu-page{
+    display: flex;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.Food-category{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.menu-list{
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+.menu-nav{
+    position: absolute;
+    background: black;
+    width: 40%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    height: 60px;
+   margin-top: 2%;
+    gap: 3%;  
+}
+.ankole{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    height: 300px;
+    z-index: 10;
+    width: 300px;
+}
+.Food-category a{
+    text-decoration: none;
+    color: white;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+}
+.drinks{
+    display: flex;
+    /* margin-left: 5%; */
+    gap: 4%;
+}
+.menu-information{
+    margin-left: 7%;
+    margin-right: 1%;
+}
+.menu-word{
+    color: white;
+}
+.kitisuru-word{
+    color: #b24216;
+}
+.accra{
+    background-image: url(./images/accra.jpg);
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.nairobi{
+    background-image: url(./images/nairobi.jpg);
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.zanzibar{
+    background-image: url(./images/zanzibar.jpg);
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.venues{
+    display: flex;
+    width: 100%;
+    height: 100vh;
 }
