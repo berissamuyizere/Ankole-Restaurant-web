@@ -1,7 +1,3 @@
-.contacts{
-    width: 100vw;
-    height: 100vh;
-}
 .ankole-logo{
     position: absolute;
     top: 20px;
@@ -36,29 +32,63 @@
     border: 1px solid rgb(94, 88, 88);
     margin-left: 5%;
 }
-.contact-view{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/ankorecontact.webp);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    filter: brightness(90%);
-}
-.addreses{
+.menu{
     display: flex;
-    flex-direction: column;
-    color: white;
-    filter: brightness(2);
-    position: absolute;
-    padding: 70px;
-    border: 2px solid;
-    margin-top: 13%;
-    margin-left: 27%;
-    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
 }
-#bar{
+.kalibu{
+    margin-top: 40%;
+    color: #b24216;
+    font-size: 35px;
+    font-weight: bold;
+}
+.kitisulu{
     color: white;
-    font-size: 20px;
-    margin-top: 2%;
+    font-size: 55px;
+    font-weight: bold;
+}
+.explore{
+    color: white;
+}
+
+.kitisuru-menu{
+    background-image: url(./images/ankoleview.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+.kitisuru-menu a{
+    text-decoration: none;
+}
+.kilimani-menu{
+    background-image: url(./images/ankolemainhall.jpg);
+    height: 100%;
+    width: 100%;
+   
+}
+.kilimani-menu{
+    text-align: center;
+}
+.kilimani-menu a{
+    text-decoration: none;
+}
+.discover{
+    margin-top: 40%;
+    color: #b24216;
+    font-size: 35px;
+    font-weight: bold;
+    /* left: 20%; */
+}
+.kilimani{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.explore{
+    color: white;
 }
 nav{
     position: absolute;
@@ -82,32 +112,20 @@ nav a{
 }
 .reservation-btn{
     background-color: #737373;
-     /* text-align: center; */
     border-radius: 20px;
-    width: 20%;
-    margin-bottom: 1%;
-    padding: 15px;
+    width: 15%;
+    /* margin-bottom: 10%; */
+    padding: 25px;
+    padding-bottom: 10px;
 }
-.addrese{
-    display: flex;
-    flex-direction: column;
-    color: rgb(255, 255, 255);
-    filter: brightness(2);
-    position: absolute;
-    padding: 60px;
-    padding-bottom: 8%;
-    border: 2px solid;
-    margin-top: 13%;
-    margin-left: 52%;
+#watsapp{
+    color: white;
     font-size: 20px;
-}
-.addreses a{
-    text-decoration: none;
-    color: white;
-}
-
-.addrese a{
-    text-decoration: none;
-    color: white;
-}
-
+    position: absolute;
+    margin-top: -7%;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 95%;
+  }
