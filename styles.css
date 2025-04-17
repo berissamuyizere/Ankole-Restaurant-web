@@ -323,7 +323,7 @@ nav a{
     position: absolute;
     padding: 70px;
     border: 1px solid;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 30%;
 }
 .addrese{
@@ -335,7 +335,7 @@ nav a{
     padding: 70px;
     padding-bottom: 10%;
     border: 1px solid;
-    margin-top: 10%;
+    margin-top: 19%;
     margin-left: 52%;
 }
 #social-media{
@@ -365,9 +365,11 @@ nav a{
     margin-left: 5%;
 }
 .musical{
-    background-image: url(./images/ankoleview.jpg);
+    background-image: url(./images/drums3.jpeg);
     width: 100%;
     height: 100%;
+    display: flex;
+    /* background-repeat: no-repeat; */
 }
 .live-collection{
     width: 100%;
@@ -389,9 +391,7 @@ input{
 .entry-section{
     margin-top: 3%;
 }
-.entry-section label{
-    
-}
+
 form button{
     padding: 22px;
     width: 94%;
@@ -426,4 +426,5 @@ form button{
     width: 100%;
     /* background-repeat: no-repeat; */
     text-align: center;
+    position: relative;
 }

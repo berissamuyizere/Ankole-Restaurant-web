@@ -1,0 +1,109 @@
+
+.reserve-main{
+    background-image: url(./images/ankoleview.jpg);
+    height: 100%;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    position: relative;
+}
+.live-collection{
+    width: 100%;
+    height: 100vh;
+}
+.musical{
+    background-image: url(./images/drums3.jpeg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-repeat: no-repeat; */
+}
+.live-nav{
+    position:fixed;
+    background: black;
+    width: 40%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    height: 60px;
+    margin-top: 45%;
+    gap: 3%; 
+    margin-bottom: 50%; 
+}
+.live-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.ankole-live-logo{
+    position: fixed;
+    margin-top: 4%;
+    margin-left: 20%;
+    height: 200px;
+    z-index: 10;
+    width: 200px;
+    /* margin-bottom: 5%; */
+}
+.live-words{
+    text-align: center;
+    margin-top: 23%;
+    position: fixed;
+    margin-left: 22%;
+
+}
+.menu-word{
+    color: white;
+}
+.kitisuru-word{
+    color: #b24216;
+}
+.live-words .menu-word{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.live-words .kitisuru-word{
+    font-size: 30px;
+}
+.live-performers{
+    position: absolute;
+    /* background-color: black; */
+    width: 80%;
+    margin-left: 50%;
+}
+.musicians{
+    display: flex;
+    justify-content: center;
+    /* gap: 30%; */
+}
+.performers img{
+    width: 30%;
+}
+.performers{
+    display: flex;
+    margin-top: 2%;
+}
+.welcome-live{
+    width: 50%;
+}
+.performer-details{
+    font-size: 15;
+    /* color: white; */
+    margin-top: 8%;
+    margin-left: 2%;
+}
+.date{
+    color: #b24216;
+    font-size: 19px;
+}
+.kind{
+    font-size: 25px;
+    color: white;
+}
+.musical2{
+    background-image: url(./images/drums3.jpeg);
+    width: 100%;
+    height: 100%;
+}
