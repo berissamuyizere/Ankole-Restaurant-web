@@ -130,3 +130,6 @@
 #fresh-drinks{
     margin-top: 5%;
 }
+#breakfast{
+    transition: opacity 1s ease-in-out;
+}

@@ -7,20 +7,21 @@
 }
 
 .reserve-main{
-    background-image: url(./images/ankoleview.jpg);
+    background-image: url(./images/goodflower.jpg);
     height: 100%;
     width: 100%;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     text-align: center;
     position: relative;
+    background-size: cover;
 }
 .ankole{
     position: absolute;
     top: 20px;
-    left: 20%;
-    height: 300px;
+    left: 35%;
+    height: 200px;
     z-index: 10;
-    width: 300px;
+    width: 200px;
 }
 .menu-p{
     margin-top: 50%;
@@ -87,15 +88,51 @@ input{
     border: 1px solid white;
     width: 90%;
     margin-top: 1%;
+    position: relative;
+    cursor: pointer;
+}
+
+input:hover{
+    border: 1px solid green;
 }
 form button{
     padding: 22px;
     width: 94%;
     margin-top: 4%;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: #f2d5a5;
+    color: black;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #e9b96c;
 }
 form{
     margin-top: 10%;
     margin-left: 10%;
+}
+#calendar{
+    right: 3.5%;
+    bottom: 32%;
+    position: absolute;
+}
+#time{
+    right: 3.5%;
+    bottom: 21.5%;
+    position: absolute;
+}
+#option{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 94%;
+    margin-top: 1%;
+    position: relative;
+}
+#option:hover{
+    border: 1px solid green;
 }

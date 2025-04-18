@@ -12,11 +12,12 @@
     height: 100vh;
 }
 .musical{
-    background-image: url(./images/drums3.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/live-image.jpg);
     width: 100%;
     height: 100%;
     display: flex;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .live-nav{
     position:fixed;
@@ -79,7 +80,14 @@
     /* gap: 30%; */
 }
 .performers img{
-    width: 30%;
+    width: 25%;
+    cursor: pointer;
+    -webkit-transition-property: all; 
+-webkit-transition-duration: 0.9s; 
+-webkit-transition-timing-function: ease;
+}
+.performers img:hover{
+    transform: scale(1.3); 
 }
 .performers{
     display: flex;
@@ -103,9 +111,11 @@
     color: white;
 }
 .musical2{
-    background-image: url(./images/drums3.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/live-image.jpg);
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .reservation-btn{
     background-color: #737373;

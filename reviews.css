@@ -10,7 +10,7 @@ body{
     background-color: black;
 }
 nav{
-    background: black;
+    background: rgb(27, 26, 26);
     width: 40%;
     margin-left: 25%;
     display: flex;
@@ -18,7 +18,7 @@ nav{
     padding: 10px 0;
     border-radius: 30px;
     height: 60px;
-   margin-top: 15%;
+   margin-top: 10%;
     gap: 3%; 
 }
 nav a{
@@ -46,14 +46,82 @@ nav a{
     min-height: 200px;
     overflow: hidden;
 }
-.review{
+.reviews-section{
+    position: relative;
+    height: 250px;
+}
+.review {
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease;
     position: absolute;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-.review.active{
+  }
+
+  .review.active {
+    display: block;
     opacity: 1;
-    transform: translateX(0);
-}
+    position: relative;
+  }
+.slide-in-right {
+    animation: slideInRight 0.5s forwards;
+  }  
+
+
+  .slide-out-left {
+    animation: slideOutLeft 0.5s forwards;
+  }
+  .slide-in-left {
+    animation: slideInLeft 0.5s forwards;
+  }
+
+  .slide-out-right {
+    animation: slideOutRight 0.5s forwards;
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes slideOutLeft {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
 .review.slide-out-left{
     opacity: 0;
     transform: translateX(100%);
@@ -75,15 +143,16 @@ h1{
 #prev-review{
     color: #737373;
     font-size: 35px;
-    margin-left: 22%;
+    left: 15%;
     position: absolute;
     cursor: pointer;
+    
 }
 #next-review{
     color: #737373;
     font-size: 35px;
     right: 22%;
-   top: 35%; 
+    top: 35%; 
     position: absolute;
     cursor: pointer;
 }
@@ -91,4 +160,9 @@ h1{
     color: rgb(165, 14, 14);
     font-size: 25px;
     margin-left: 80%
+}
+#bar{
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
 }

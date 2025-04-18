@@ -9,7 +9,7 @@ let currentReviewIndex = 0;
 let isAnimating = false;
 
 function displayReview(index, direction){
-    if(isAnimating)return;
+    if(isAnimating || index === currentReviewIndex)return;
     isAnimating = true;
 
 
@@ -22,6 +22,11 @@ if(direction === 'next'){
 } else if(direction === 'prev'){
     currentReview.classList.add('slide-out-right');
     nextReview.classList.add('slide-in-left');
+} else{
+    nextReview.classList.add('active');
+    currentReviewIndex = index;
+    isAnimating = false;
+    return;
 }
 
 setTimeout(()=>{
@@ -30,16 +35,15 @@ setTimeout(()=>{
     nextReview.classList.add('active');
     currentReviewIndex = index;
     isAnimating = false;
-}, 500)}
-
-
+}, 500);
+}
 function nextReview(){
     let nextIndex = (currentReviewIndex +1 ) % reviews.length;
     console.log('next Index ', nextIndex);
     displayReview(nextIndex, 'next') 
 }
 function prevReview(){
-    let prevIndex = (currentReviewIndex -1) % reviews.length;
+    let prevIndex = (currentReviewIndex -1 + reviews.length) % reviews.length;
     console.log('Previous Index: ', prevIndex);
     displayReview(prevIndex, 'prev');
 }
@@ -52,5 +56,7 @@ if(nextButton){
 if(prevButton){
     prevButton.addEventListener('click', prevReview);
 }
+
+reviews[currentReviewIndex].classList.add('active')
 
 
