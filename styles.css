@@ -1,5 +1,6 @@
 
-
+@import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter);
+@import url(https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
 .banner{
     position: relative;
     width: 100%;
@@ -61,8 +62,11 @@
   }
   
   .banner-text h1 {
-    font-size: 4rem;
-    color: rgb(138, 136, 136);
+    font-size: 144px;
+    color: rgba(115, 115, 115, 0.81);
+    font-family: "Typewriter";
+    font-weight: 500;
+    font-style: normal;
 
   }
   nav{
@@ -82,8 +86,12 @@
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 2%;
+    font-family: "Sans";
+    color: rgb(115,115,115);
+    font-weight: 400;
+    font-style: normal;
 }
 .reservation-btn{
     background-color: #737373;

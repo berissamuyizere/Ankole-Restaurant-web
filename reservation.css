@@ -1,3 +1,5 @@
+
+@import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter);
 .kitisulu-page{
     display: flex;
     /* background-color: yellow; */
@@ -26,17 +28,25 @@
 .menu-p{
     margin-top: 50%;
     color: #b24216;
-    font-size: 35px;
-    font-weight: bold;
+    /* font-size: 35px;
+    font-weight: bold; */
+    font-family: "Typewriter";
+
 }
 .menu-p{
     margin-bottom: 17%;
 }
 .menu-word{
     color: white;
+    font-family: "Typewriter";
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
 }
 .kitisuru-word{
     color: #b24216;
+    font-size: 64px;
+    line-height: 64px;
 }
 .reserve-list{
     background-color: black;
@@ -92,8 +102,9 @@ input{
     cursor: pointer;
 }
 
-input:hover{
-    border: 1px solid green;
+input:focus{
+    outline:  green 2px solid;
+    border: none;
 }
 form button{
     padding: 22px;
@@ -136,3 +147,14 @@ form{
 #option:hover{
     border: 1px solid green;
 }
+/* #time{
+
+} */
+ .time{
+    color-scheme: dark;
+    font-size: 18px;
+ }
+ .date{
+    color-scheme: dark;
+    font-size: 18px;
+ }

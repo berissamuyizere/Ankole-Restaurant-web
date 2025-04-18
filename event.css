@@ -1,3 +1,6 @@
+@import url(https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+@import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter);
+@import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter);
 .ankole-logo{
     position: absolute;
     top: 20px;
@@ -59,11 +62,18 @@
 .event-description{
     color: rgb(70, 40, 2);
     filter: brightness(200%);
-    font-weight: bold;
-    font-size: 18px;
+    /* font-weight: bold;
+    font-size: 18px; */
+    font-family: "Sans";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    /* color: rgb(61, 38, 3); */
+    font-style: normal;
 }
 .p{
     color: white;
+    
 }
 .even-informtion{
     margin-top: 55%;
@@ -72,8 +82,13 @@
     filter: brightness(200%);
 }
 .venu-name{
-    color: white;
-    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    /* font-size: 3rem; */
+    font-family: "Typewriter";
+    font-weight: 500;
+    line-height: 53px;
+    font-size: 48px;
+    font-style: normal;
 }
 .reservation-btn{
     background-color: #737373;

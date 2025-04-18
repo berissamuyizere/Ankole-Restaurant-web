@@ -1,0 +1,70 @@
+body{
+    background-image:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url(./images/fadhilli.jpg);
+    width: 200vw;
+    height: 270vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 190vh 140.5vw;
+    overflow-x: hidden;
+    position: relative;
+}
+nav{
+    position: absolute;
+    width: 20%;
+    top: 37%;
+    left: 12%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    height: 60px;
+    background-color: black;
+    margin-top: -8%;
+    gap: 3%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 2%;
+    font-family: "Sans";
+    color: rgb(115,115,115);
+    font-weight: 400;
+    font-style: normal;
+}
+.reservation-btn{
+    background-color: #737373;
+    /* padding-top: 10px; */
+    padding: 17px;
+   margin-top: -13px;
+   border-radius: 8px;
+   color: white;
+   font-size: 18px;
+   border: none;
+}
+.content{
+    /* align-content: center; */
+    margin-top: 20%;
+    margin-left: 2%;
+    /* background-color: red; */
+}
+
+#watsapp{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 14%;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 42%;
+  }
+  p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* margin-left: 20%; */
+    margin-top: -15%;
+    margin-right: 50%;
+  }

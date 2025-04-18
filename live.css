@@ -1,5 +1,4 @@
-
-.reserve-main{
+.reserve-main {
     background-image: url(./images/ankoleview.jpg);
     height: 100%;
     width: 100%;
@@ -7,20 +6,23 @@
     text-align: center;
     position: relative;
 }
-.live-collection{
+
+.live-collection {
     width: 100%;
     height: 100vh;
 }
-.musical{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/live-image.jpg);
+
+.musical {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/live-image.jpg);
     width: 100%;
     height: 100%;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.live-nav{
-    position:fixed;
+
+.live-nav {
+    position: fixed;
     background: black;
     width: 40%;
     left: 7%;
@@ -30,16 +32,22 @@
     border-radius: 30px;
     height: 60px;
     margin-top: 45%;
-    gap: 3%; 
-    margin-bottom: 50%; 
+    gap: 3%;
+    margin-bottom: 50%;
 }
-.live-nav a{
+#bar{
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.live-nav a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     margin-top: 2%;
 }
-.ankole-live-logo{
+
+.ankole-live-logo {
     position: fixed;
     margin-top: 4%;
     margin-left: 20%;
@@ -48,82 +56,102 @@
     width: 200px;
     /* margin-bottom: 5%; */
 }
-.live-words{
+
+.live-words {
     text-align: center;
     margin-top: 23%;
     position: fixed;
     margin-left: 22%;
 
 }
-.menu-word{
+
+.menu-word {
     color: white;
 }
-.kitisuru-word{
+
+.kitisuru-word {
     color: #b24216;
 }
-.live-words .menu-word{
+
+.live-words .menu-word {
     font-size: 30px;
     margin-top: 5%;
 }
-.live-words .kitisuru-word{
+
+.live-words .kitisuru-word {
     font-size: 30px;
 }
-.live-performers{
+
+.live-performers {
     position: absolute;
     /* background-color: black; */
     width: 80%;
     margin-left: 50%;
 }
-.musicians{
+
+.musicians {
     display: flex;
     justify-content: center;
     /* gap: 30%; */
 }
-.performers img{
+
+.performers img {
     width: 20%;
     cursor: pointer;
-    -webkit-transition-property: all; 
--webkit-transition-duration: 0.5s; 
--webkit-transition-timing-function: ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
 }
-.performers img:hover{
-    transform: scale(1.1); 
+
+.performers img:hover {
+    transform: scale(1.1);
 }
-.performers{
+
+.performers {
     display: flex;
     margin-top: 2%;
 }
-.welcome-live{
+
+.welcome-live {
     width: 50%;
 }
-.performer-details{
+
+.performer-details {
     font-size: 15;
     /* color: white; */
     margin-top: 8%;
     margin-left: 2%;
 }
-.date{
-    color: #b24216;
+
+.date {
+    color: #d14a15;
     font-size: 19px;
 }
-.kind{
+
+.kind {
     font-size: 25px;
     color: white;
 }
-.musical2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/live-image.jpg);
+
+.musical2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/live-image.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.reservation-btn{
+
+.reservation-btn {
     background-color: #737373;
     /* padding-top: 10px; */
     padding: 17px;
-   margin-top: -13px;
-   border-radius: 8px;
-   color: white;
-   font-size: 18px;
-   border: none;
+    margin-top: -13px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.performer-link {
+    text-decoration: none;
 }
