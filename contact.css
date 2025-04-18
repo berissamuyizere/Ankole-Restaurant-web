@@ -82,11 +82,13 @@ nav a{
 }
 .reservation-btn{
     background-color: #737373;
-     /* text-align: center; */
-    border-radius: 20px;
-    width: 20%;
-    margin-bottom: 1%;
-    padding: 15px;
+    /* padding-top: 10px; */
+    padding: 17px;
+   margin-top: -13px;
+   border-radius: 8px;
+   color: white;
+   font-size: 18px;
+   border: none;
 }
 .addrese{
     display: flex;

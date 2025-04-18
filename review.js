@@ -39,7 +39,7 @@ function nextReview(){
     displayReview(nextIndex, 'next') 
 }
 function prevReview(){
-    let prevIndex = (currentReviewIndex -1 + reviews.length) % reviews.length;
+    let prevIndex = (currentReviewIndex -1) % reviews.length;
     console.log('Previous Index: ', prevIndex);
     displayReview(prevIndex, 'prev');
 }
