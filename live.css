@@ -80,14 +80,14 @@
     /* gap: 30%; */
 }
 .performers img{
-    width: 25%;
+    width: 20%;
     cursor: pointer;
     -webkit-transition-property: all; 
--webkit-transition-duration: 0.9s; 
+-webkit-transition-duration: 0.5s; 
 -webkit-transition-timing-function: ease;
 }
 .performers img:hover{
-    transform: scale(1.3); 
+    transform: scale(1.1); 
 }
 .performers{
     display: flex;
