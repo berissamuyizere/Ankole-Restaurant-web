@@ -217,9 +217,9 @@
         left: 5%;
         align-items: center;
         height: auto;
-        padding: 10px;
+        /* padding: 10px;
         margin-top: -12%;
-        gap: 20px;
+        gap: 20px; */
     }
     nav a{
         font-size: 14px;
