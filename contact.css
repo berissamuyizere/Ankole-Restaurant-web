@@ -42,6 +42,7 @@
     height: 100%;
     background-size: cover;
     filter: brightness(90%);
+    display: flex;
 }
 .addreses{
     display: flex;
@@ -55,6 +56,8 @@
     margin-left: 27%;
     font-size: 20px;
 }
+
+
 #bar{
     color: white;
     font-size: 20px;
@@ -90,6 +93,9 @@ nav a{
    font-size: 18px;
    border: none;
 }
+.info{
+    flex-wrap: wrap;
+}
 .addrese{
     display: flex;
     flex-direction: column;
@@ -112,4 +118,202 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .ankole-logo{
+        margin-left: 0;
+        transform: translateX();
+        height: 120px;
+        width: 120px;
+        margin-top: 10%;
+    }
+    nav{
+        width: 80%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -26%;
+        gap: 10px;
+    }
+    .addreses{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    filter: brightness(2);
+    position: absolute;
+    padding: 50px;
+    border: 2px solid;
+    margin-top: 13%;
+    margin-left: 27%;
+    font-size: 15px;
+
+    }
+    .addrese{
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        filter: brightness(2);
+        position: absolute;
+        padding: 30px;
+        padding-bottom: 8%;
+        border: 2px solid;
+        margin-top: 63%;
+        margin-left: 32%;
+        font-size: 15px;
+    }
+    /* .info{
+        display: flex;
+        flex-direction: column;
+    } */
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -13%;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 35%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 17px;
+        padding: 10px;
+       
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .ankole-logo{
+        margin-left: -7%;
+        transform: translateX();
+        height: 140px;
+        width: 140px;
+        margin-top: 20%;
+    }
+    nav{
+        width: 80%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 10px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .banner-text h1{
+        font-size: 49px;
+        padding: 0 10px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -10%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 29%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1253px){
+    .ankole-logo{
+        margin-left: -4%;
+        transform: translateX();
+        height: 160px;
+        width: 160px;
+        margin-top: 10%;
+    }
+
+    nav{
+        width: 50%;
+        left: 25%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .banner-text h1{
+        font-size: 49px;
+        padding: 0 10px;
+    }
+
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -10%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 29%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+}
+
 
