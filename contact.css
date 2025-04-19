@@ -55,6 +55,7 @@
     margin-top: 13%;
     margin-left: 27%;
     font-size: 20px;
+    /* background-color: red; */
 }
 
 
@@ -94,7 +95,9 @@ nav a{
    border: none;
 }
 .info{
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
 }
 .addrese{
     display: flex;
@@ -144,11 +147,12 @@ nav a{
     color: white;
     filter: brightness(2);
     position: absolute;
-    padding: 50px;
+    padding: 10px;
     border: 2px solid;
     margin-top: 13%;
     margin-left: 27%;
     font-size: 15px;
+    position: fixed
 
     }
     .addrese{
@@ -157,12 +161,13 @@ nav a{
         color: rgb(255, 255, 255);
         filter: brightness(2);
         position: absolute;
-        padding: 30px;
+        padding: 10px;
         padding-bottom: 8%;
         border: 2px solid;
-        margin-top: 63%;
+        margin-top: 73%;
         margin-left: 32%;
         font-size: 15px;
+        position: fixed;
     }
     /* .info{
         display: flex;
@@ -205,7 +210,7 @@ nav a{
         transform: translateX();
         height: 140px;
         width: 140px;
-        margin-top: 20%;
+        margin-top: 2%;
     }
     nav{
         width: 80%;
@@ -230,7 +235,35 @@ nav a{
         flex-direction: column;
     }
 
-
+    .addreses{
+        margin-top: 30%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        filter: brightness(2);
+        position: absolute;
+        padding: 10px;
+        border: 2px solid;
+        margin-top: 13%;
+        margin-left: 27%;
+        font-size: 18px;
+        position: fixed
+    
+        }
+        .addrese{
+            display: flex;
+            flex-direction: column;
+            color: rgb(255, 255, 255);
+            filter: brightness(2);
+            position: absolute;
+            padding: 10px;
+            padding-bottom: 8%;
+            border: 2px solid;
+            margin-top: 53%;
+            margin-left: 32%;
+            font-size: 18px;
+            position: fixed;
+        }
 
     #watsapp{
         margin-left: 89%;
@@ -266,7 +299,7 @@ nav a{
         transform: translateX();
         height: 160px;
         width: 160px;
-        margin-top: 10%;
+        margin-top: 4%;
     }
 
     nav{
@@ -283,10 +316,34 @@ nav a{
         font-size: 14px;
         margin-top: o;
     }
-    .banner-text h1{
-        font-size: 49px;
-        padding: 0 10px;
-    }
+    .addreses{
+        margin-top: 30%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        filter: brightness(2);
+        position: absolute;
+        padding: 10px;
+        border: 2px solid;
+        margin-top: 23%;
+        margin-left: 27%;
+        font-size: 18px;
+        
+    
+        }
+        .addrese{
+            display: flex;
+            flex-direction: column;
+            color: rgb(255, 255, 255);
+            filter: brightness(2);
+            position: absolute;
+            padding: 10px;
+            padding-bottom: 8%;
+            border: 2px solid;
+            margin-top: 23%;
+            margin-left: 62%;
+            font-size: 18px;
+        }
 
     #watsapp{
         margin-left: 89%;

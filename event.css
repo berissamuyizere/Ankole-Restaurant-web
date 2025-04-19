@@ -136,3 +136,174 @@ nav a{
     border: 1px solid white;
     margin-left: 95%;
   }
+
+  @media only screen and (max-width: 600px) {
+    .ankole-logo{
+        margin-left: 0;
+        transform: translateX();
+        height: 120px;
+        width: 120px;
+        margin-top: 10%;
+    }
+    .banner{
+        position: relative;
+        width: 100%;
+        height: 140vh;
+    }
+    nav{
+        width: 80%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -36%;
+        gap: 10px;
+    }
+
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .venues{
+        flex-wrap: wrap;
+    }
+
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -13%;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 35%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 17px;
+        padding: 10px;
+       
+    }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .ankole-logo{
+        margin-left: -7%;
+        transform: translateX();
+        height: 140px;
+        width: 140px;
+        margin-top: 20%;
+    }
+
+    nav{
+        width: 80%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 10px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .banner-text h1{
+        font-size: 49px;
+        padding: 0 10px;
+    }
+    .venues{
+        flex-wrap: wrap;
+    }
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -10%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 29%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1253px){
+    .ankole-logo{
+        margin-left: -4%;
+        transform: translateX();
+        height: 160px;
+        width: 160px;
+        margin-top: 3%;
+    }
+    .even-informtion{
+        margin-top: 75%;
+    }
+    nav{
+        width: 50%;
+        left: 25%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -10%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 39%;
+        justify-content: center;
+        width: 100%;
+        gap: 5px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+}

@@ -144,7 +144,6 @@
 
 .reservation-btn {
     background-color: #737373;
-    /* padding-top: 10px; */
     padding: 17px;
     margin-top: -13px;
     border-radius: 8px;
@@ -155,4 +154,75 @@
 
 .performer-link {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .ankole-live-logo{
+        margin-left: 0;
+        transform: translateX();
+        height: 120px;
+        width: 120px;
+        margin-top: 10%;
+    }
+  
+    .live-nav{
+        width: 90%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -36%;
+        gap: 10px;
+    }
+    .live-nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .ankole-logo{
+        margin-left: -7%;
+        transform: translateX();
+        height: 140px;
+        width: 140px;
+        margin-top: 20%;
+    }
+ 
+    nav{
+        width: 90%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 10px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1253px){
+    .ankole-live-logo{
+        margin-left: 19%;
+        transform: translateX();
+        height: 160px;
+        width: 160px;
+        margin-top: 10%;
+    }
+    nav{
+        width: 50%;
+        left: 5%;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }  
 }
