@@ -1,6 +1,5 @@
 .kitisulu-page{
     display: flex;
-    display: flex;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -132,4 +131,199 @@
 }
 #breakfast{
     transition: opacity 1s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .ankole{
+        margin-left: 12%;
+        transform: translateX();
+        height: 140px;
+        width: 140px;
+        margin-top: 10%;
+    }
+
+    .menu-nav{
+        width: 80%;
+        left: 5%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -19%;
+        gap: 10px;
+    }
+    .kitisulu-page{
+        flex-direction: column;
+    }
+   
+    .menu-list{
+        background-color: black;
+        color: white;
+        width: 100%;
+       /* overflow: scroll; */
+       margin-top: 10%;
+    }
+
+    .menu-nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+ 
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .ankole{
+        margin-left: -7%;
+        transform: translateX();
+        height: 120px;
+        width: 120px;
+        margin-top: 20%;
+    }
+
+    .menu-nav{
+        width: 90%;
+        left: 5%;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 10px;
+    }
+    .menu-nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .kitisulu-page{
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    .menu-list{
+        background-color: black;
+        color: white;
+        width: 100%;
+       /* overflow: scroll; */
+       margin-top: 5%;
+    }
+    .kitisulu-page{
+        overflow: scroll;
+    }
+    }
+   
+    @media only screen and (min-width: 1000px) and (max-width: 1253px){
+        .ankole-logo{
+            margin-left: -4%;
+            transform: translateX();
+            height: 160px;
+            width: 160px;
+            margin-top: 10%;
+        }
+    
+        nav{
+            width: 50%;
+            left: 25%;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+            padding: 10px;
+            margin-top: -12%;
+            gap: 20px;
+        }
+        nav a{
+            font-size: 14px;
+            margin-top: o;
+        }
+        .banner-text h1{
+            font-size: 49px;
+            padding: 0 10px;
+        }
+    
+        #watsapp{
+            margin-left: 89%;
+            margin-right: 10px;
+            margin-top: -10%;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .reservation-btn{
+            padding: 10px 15px;
+            font-size: 14px;
+            margin-top: 0;
+        }
+        #social-media{
+            margin-left: 29%;
+            justify-content: center;
+            width: 100%;
+            gap: 10px;
+            margin-top: 5%;
+            position: absolute;
+        }
+        #instagram,
+        #facebook{
+            font-size: 14px;
+            padding: 10px;
+           
+        }
+    }
+    
+@media only screen and (min-width: 1000px) and (max-width: 1253px){
+    .ankole-logo{
+        margin-left: -4%;
+        transform: translateX();
+        height: 160px;
+        width: 160px;
+        margin-top: 10%;
+    }
+
+    nav{
+        width: 50%;
+        left: 25%;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: -12%;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 14px;
+        margin-top: o;
+    }
+    .banner-text h1{
+        font-size: 49px;
+        padding: 0 10px;
+    }
+
+    #watsapp{
+        margin-left: 89%;
+        margin-right: 10px;
+        margin-top: -10%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .reservation-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #social-media{
+        margin-left: 29%;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #instagram,
+    #facebook{
+        font-size: 14px;
+        padding: 10px;
+       
+    }
 }
