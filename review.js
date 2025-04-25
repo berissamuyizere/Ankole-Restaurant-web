@@ -1,9 +1,6 @@
-const reviews = 
-document.querySelectorAll('.review');
-const prevButton = 
-document.getElementById('prev-review');
-const nextButton = 
-document.getElementById('next-review');
+const reviews = document.querySelectorAll('.review');
+const prevButton = document.getElementById('prev-review');
+const nextButton = document.getElementById('next-review');
 
 let currentReviewIndex = 0;
 let isAnimating = false;
@@ -28,7 +25,6 @@ if(direction === 'next'){
     isAnimating = false;
     return;
 }
-
 setTimeout(()=>{
     currentReview.classList.remove('active', 'slide-out-left', 'slide-out-right');
     nextReview.classList.remove('slide-in-right', 'slide-in-left');
@@ -47,16 +43,13 @@ function prevReview(){
     console.log('Previous Index: ', prevIndex);
     displayReview(prevIndex, 'prev');
 }
-
 displayReview(currentReviewIndex, 'none');
 if(nextButton){
     nextButton.addEventListener('click', nextReview);
 }
-
 if(prevButton){
     prevButton.addEventListener('click', prevReview);
 }
-
 reviews[currentReviewIndex].classList.add('active')
 
 

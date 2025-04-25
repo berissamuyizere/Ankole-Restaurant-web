@@ -9,7 +9,7 @@
 }
 
 .reserve-main{
-    background-image: url(./images/goodflower.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(./images/goodflower.jpg);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -60,13 +60,14 @@
     position: absolute;
     background: black;
     width: 40%;
-    left: 17%;
+    left: 10%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
     border-radius: 30px;
     height: 60px;
-    margin-top: 45%;
+    /* margin-top: 45%; */
+    bottom: 3%;
     gap: 3%;  
 }
 
@@ -90,6 +91,11 @@
    color: white;
    font-size: 18px;
    border: none;
+}
+
+.reservation-btn:hover{
+    background-color: white;
+    color: black;
 }
 input{
     padding: 15px;
@@ -144,6 +150,7 @@ form{
     margin-top: 1%;
     position: relative;
 }
+
 #option:hover{
     border: 1px solid green;
 }
@@ -169,8 +176,8 @@ form{
     .kitisulu-page{
         flex-wrap: wrap;
     }
-    nav{
-        width: 90%;
+    .reservation-nav{
+        width: 85%;
         left: 5%;
         flex-wrap: wrap;
         align-items: center;
@@ -179,9 +186,16 @@ form{
         margin-top: -36%;
         gap: 10px;
     }
-    nav a{
+    .reservation-nav a{
         font-size: 14px;
         margin-top: o;
+    }
+    .reservation-btn{
+        padding: 12px;
+        font-size: 10px;
+    }
+    .kitisuru-word{
+        font-size: 54px;
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -198,19 +212,26 @@ form{
     .kitisulu-page{
         flex-wrap: wrap;
     }
-    nav{
-        width: 90%;
-        left: 5%;
-        flex-wrap: wrap;
-        align-items: center;
-        height: auto;
-        padding: 10px;
-        margin-top: -12%;
-        gap: 10px;
+    .reservation-nav{
+        position: absolute;
+        background: black;
+        width: 75%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        border-radius: 30px;
+        height: 60px;
+        bottom: 3%;
+        gap: 3%;  
     }
-    nav a{
+    .reservation-nav a{
         font-size: 14px;
         margin-top: o;
+    }
+    .reservation-btn{
+        padding: 12px;
+        font-size: 14px;
     }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1253px){
@@ -221,14 +242,19 @@ form{
         width: 160px;
         margin-top: 10%;
     }
-    nav{
-        width: 50%;
-        left: 5%;
-        align-items: center;
-        height: auto;
-        padding: 10px;
-        margin-top: -12%;
-        gap: 20px;
+    .reservation-nav{
+        position: absolute;
+        background: black;
+        width: 55%;
+        left: 3%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        border-radius: 30px;
+        height: 60px;
+        /* margin-top: 45%; */
+        bottom: 3%;
+        gap: 3%;  
     }
     nav a{
         font-size: 14px;

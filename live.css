@@ -1,3 +1,12 @@
+/* @import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter); */
+@import url(https://db.onlinewebfonts.com/c/a67d98abe8980caaa1768b6e27b323c6?family=Typewriter);
+@import url(https://db.onlinewebfonts.com/c/952bab25f6798d6bb1937d67e9bee4dd?family=Sans);
+
+body{
+     font-family: "Typewriter";
+}
+
+
 .reserve-main {
     background-image: url(./images/ankoleview.jpg);
     height: 100%;
@@ -43,8 +52,12 @@
 }
 .live-nav a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: 18px;
+    font-family: "Sans";
+    color: rgb(115,115,115);
+    font-weight: 400;
+    font-style: normal;
     margin-top: 2%;
 }
 
@@ -63,15 +76,20 @@
     margin-top: 23%;
     position: fixed;
     margin-left: 22%;
+    font-family: "Typewriter";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 104px;
 
 }
-
 .menu-word {
     color: white;
 }
 
 .kitisuru-word {
     color: #b24216;
+    font-size: 1200px;
+    line-height: 64px;
 }
 
 .live-words .menu-word {
